@@ -54,7 +54,7 @@ fillSpace [x] = [x]
 fillSpace ls = go ls $ length (head ls) where
   go :: [String] -> Int -> [String]
   go [] _ = []
-  go [x] len = [x ++ replicate (len - length x) 'ㅤ']
+  go [x] len = [x ++ replicate (len - length x) '・']
   go (x:xs) len = x : go xs len
     
 
@@ -76,7 +76,7 @@ fullWidthMap = Map.fromList
   , ('+', '＋')
   , (',', '，')
   , ('-', '－')
-  , ('.', '．')
+  , ('.', '。')
   , ('/', '／')
   , ('0', '０')
   , ('1', '１')
@@ -157,5 +157,5 @@ fullWidthMap = Map.fromList
   , ('|', '｜')
   , ('}', '｝')
   , ('~', '～')
-  , (' ', 'ㅤ')
+  , (' ', '・')
   ]
