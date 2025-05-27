@@ -1,1 +1,8 @@
 dist-newstyle
+tgtoken
+Dockerfile
+deploy.sh
+docker-build.sh
+rootfs
+*.tar.gz
+strace.log

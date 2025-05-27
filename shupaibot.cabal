@@ -56,6 +56,9 @@ common cmcfg
     build-depends: base ^>=4.17.2.1
                  , containers == 0.6.7
                  , split == 0.2.5
+                 , text == 2.0.2
+                 , telegram-bot-api == 7.4.5
+                 , telegram-bot-simple == 0.14.4
 
 library
     -- Import common warning flags.
