@@ -1,1 +1,3 @@
-## 竖排Bot
+## Shupai Bot
+
+Generate vertical text layout in Telegram.
